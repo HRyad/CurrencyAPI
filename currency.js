@@ -5,7 +5,7 @@
 
 
 
-/*if ('serviceWorker' in navigator) {
+if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('/CurrencyAPI/sw.js')
   .then(function(reg) {
     // registration worked
@@ -36,7 +36,7 @@ self.addEventListener('fetch', function(event) {
       return response || fetch(event.request);
     })
   );
-});*/
+});
 
 
 function test(){
